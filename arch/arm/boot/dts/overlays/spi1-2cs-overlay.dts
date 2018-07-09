@@ -32,7 +32,7 @@
 			status = "okay";
 
 			spidev1_0: spidev@0 {
-				compatible = "spidev";
+				compatible = "lpcspi";
 				reg = <0>;      /* CE0 */
 				#address-cells = <1>;
 				#size-cells = <0>;
