@@ -28,7 +28,7 @@
 			status = "okay";
 
 			bmp085: bmp085@77 {
-				compatible = "bosch,bmp085";
+				compatible = "NXP,lpc1768-i2c";
 				reg = <0x77>;
 				default-oversampling = <3>;
 				status = "okay";
