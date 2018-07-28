@@ -8,6 +8,15 @@
 		target = <&i2c_arm>;
 		__overlay__ {
 			compatible = "brcm,bcm2708-i2c";
+			#address-cells = <1>;
+                        #size-cells = <0>;
+			status = "okay";
+			lpc: lpc@5d {
+				      compatible = "NXP,lpc1768-i2c"'
+			              reg = <0x5d>;	
+				      status = "okay";
+				};			
+		
 		};
 	};
 };
