@@ -12,7 +12,7 @@
                         #size-cells = <0>;
 			status = "okay";
 			lpc: lpc@5d {
-				      compatible = "NXP,lpc1768-i2c"'
+				      compatible ="linux,lpci2c";
 			              reg = <0x5d>;	
 				      status = "okay";
 				};			
